@@ -30,7 +30,6 @@ class AddTask extends Component {
     if (text.length < 2) {
       alert('Za krótka nazwa w polu Dodaj zadanie');
 
-      /* DODAJ OBSŁGI BŁĘDÓW DO FORMULARZA PRZED DODANIEM DO GITHUB i ZRÓB CSS  */
       return;
     }
 
